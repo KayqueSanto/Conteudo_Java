@@ -1,0 +1,83 @@
+grupo de modificadores de classes, variáveis ou métodos, temos:
+
+Abstract: Classe que não pode ser instanciada ou método que precisa ser
+implementado por uma subclasse não abstrata.
+Class: Especifica uma classe.
+Extends: Indica a superclasse que a subclasse está estendendo.
+Final: Impossibilita que uma classe seja estendida, que um método seja
+sobrescrito ou que uma variável seja reinicializada.
+Implements: Indica as interfaces que uma classe irá implementar.
+Interface: Especifica uma interface.
+Native: Indica que um método está escrito em uma linguagem dependente
+de plataforma, como o C.
+New: Instancia um novo objeto, chamando seu construtor.
+Static: Faz um método ou uma variável pertencer à classe em vez de
+pertencer às instâncias.
+Strictfp: Usado na frente de um método ou uma classe para indicar que os
+números de ponto flutuante seguirão as regras de ponto flutuante
+em todas as expressões.
+Synchronized: Indica que um método só possa ser acessado por um thread de cada
+vez.
+Transient: Impede a serialização de campos.
+Volatile: Indica que uma variável pode ser alterada durante o uso de threads.
+
+controle de fluxo dentro de um bloco de código, temos:
+
+Break: Sai do bloco de código em que se encontra.
+Case: Executa um bloco de código dependendo do teste do switch.
+Continue: Pula a execução do código que viria após a linha e vai para a próxima
+passagem do loop.
+Default: Executa o bloco de código caso nenhum dos testes de switch-case
+seja verdadeiro.
+Do: Executa o bloco de código uma vez e realiza um teste em conjunto
+com o while para determinar se o bloco deverá ser executado
+novamente.
+Else: Executa um bloco de código alternativo caso o teste if seja falso.
+For: Utilizado para realizar um loop condicional de um bloco de código.
+If: Usado para realizar um teste lógico de verdadeiro o falso.
+Instanceof: Determina se um objeto é uma instância de determinada classe,
+superclasse ou interface.
+Return: Retorna de um método sem executar nenhum código que venha
+depois da linha e pode retornar uma variável. Isto é, finaliza
+imediatamente a execução do método e transfere o fluxo de
+execução ao módulo chamador. Utilizamos o return para definir o
+que será retornado quando determinada função for executada.
+Switch: Indica a variável a ser comparada nas expressões de case.
+While: Executa um bloco de código repetidamente enquanto a condição for
+verdadeira.
+
+grupos tipos primitivos, temos:
+
+Boolean: Valor indicando verdadeiro ou falso.
+Byte: Inteiro de 8 bits (signed).
+Char: Caracter unicode (16 bit unsigned).
+Double: Número de ponto flutuante de 64 bits (signed).
+Float: Número de ponto flutuante de 32 bits (signed).
+Int: Inteiro de 32 bits (signed).
+Long: Inteiro de 64 bits (signed).
+Short: Inteiro de 32 bits (signed)
+
+no quadro, temos os operadores da linguagem Java com suas funções, incluindo:
++ (adição), - (subtração), * (multiplicação), / (divisão), % (resto), ++ (incremento), 
+-- (decremento), > (maior que), >= (maior ou igual), < (menor que), <= (menor ou igual), 
+== (igual), != (não igual), ! (não lógico), && (e lógico), || (ou lógico), & (and), ^ (xor) e | (or)
+~ (complemento), << (deslocamento à esquerda), >> (deslocamento à direita), 
+>>> (deslocamento à direita com zeros), = (atribuição), += (atribuição com adição), 
+-= (atribuição com subtração), *= (atribuição com multiplicação), /= (atribuição com divisão), 
+%= (atribuição com resto), &= (atribuição com and), |= (atribuição com or), ^= (atribuição com xor), 
+<<= (atribuição com deslocamento esquerdo), >>= (atribuição com deslocamento direito), 
+>>>= (atribuição com deslocamento à direita com zeros), 
+?: (operação ternário), (tipo) (conversão de tipos (cast)) e instanceof (comparação de tipos).
+
+Para escrever na tela um texto qualquer
+
+Sem quebra de linha no final:
+    System.out.print("Olá Mundo!");
+    System.out.println("Bom dia!");
+        Olá Mundo!Bom dia!
+
+Com quebra de linha no final:
+    System.out.println("Olá Mundo!");
+    System.out.println("BOm dia!"); 
+        Olá Mundo!
+        Bom dia!
